@@ -1,0 +1,86 @@
+body{
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#cadastro-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+
+#cadastro-form .row-form{
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  width: 100%;
+}
+
+
+#cadastro-form .row-form.second{
+  align-self: flex-end;
+}
+
+#cadastro-form label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#cadastro-form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#cadastro-form input:focus-visible{
+  outline: none;
+  box-shadow: 0 0 5px 2px #4CAF50;
+  transition: box-shadow 0.3s ease;
+}
+
+#cadastrar, #preenche-endereco{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 40%;
+  height: 37px;
+}
+
+#preenche-endereco{
+  width: 20%;
+  background-color: #4c6baf;
+}
+
+#preenche-endereco:hover{
+  background-color: #3c5488;
+  transition: background-color 0.3s ease;
+}
+
+#cadastrar{
+  margin-top: 20px;
+}
+
+#cadastrar:hover{
+  background-color: #45a049;
+  transition: background-color 0.3s ease;
+}
+
+#preenche-endereco:disabled{
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
