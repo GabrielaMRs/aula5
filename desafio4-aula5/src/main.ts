@@ -98,4 +98,5 @@ botaoCadastrar?.addEventListener("click", (event) => {
   (document.getElementById("numero") as HTMLInputElement).value = "";
   (document.getElementById("bairro") as HTMLInputElement).value = "";
   (document.getElementById("cep") as HTMLInputElement).value = "";
+  buttonBuscar.disabled = false;
 });
